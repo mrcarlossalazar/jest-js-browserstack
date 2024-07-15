@@ -14,8 +14,4 @@ platforms:
     browserName: Chrome
     deviceOrientation: landscape
 appiumVersion: 1.17.0 
-buildName: BStack-Sample Test
-sessionName: BStack Session Name
-browserstackLocal: true
-browserStackLocalOptions:
-  - localIdentifier: BROWSERSTACK_LOCAL_IDENTIFIER
+buildName: BROWSERSTACK_BUILD_NAME

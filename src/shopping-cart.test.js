@@ -1,6 +1,6 @@
 const { Builder, By, Key, until, Capabilities } = require("selenium-webdriver");
 
-describe("BStack demo test", () => {
+describe("BStack iPhone 11 checkout test", () => {
   let driver;
 
   beforeAll(() => {
@@ -56,8 +56,8 @@ describe("BStack demo test", () => {
         .getText();
 
       await driver.findElement(By.className('buy-btn')).click();
-
       await driver.wait(until.elementLocated(By.css('#username')));
+
       // Wait for the page to load and the dropdown to be interactable
       let dropdownControl = await driver.wait(until.elementLocated(By.css('.css-yk16xz-control')), 10000);
       await dropdownControl.click();
@@ -68,7 +68,6 @@ describe("BStack demo test", () => {
       // Locate the desired option by its text and click it
       let option = await driver.findElement(By.xpath("//div[contains(@class, 'css-26l3qy-menu')]//div[contains(text(), 'fav_user')]"));
       await option.click();
-
       await driver.wait(until.elementLocated(By.css('#password')));
 
       // Wait for the page to load and the dropdown to be interactable
@@ -104,9 +103,7 @@ describe("BStack demo test", () => {
         .findElement(By.id("postCodeInput"))
         .sendKeys("10001");
       await driver.findElement(By.id('checkout-shipping-continue')).click();
-
       await driver.wait(until.titleMatches(/StackDemo/i), 10000);
-
       await driver.wait(until.elementLocated(By.id('confirmation-message')), 10000)
 
       let confirmation_message = await driver
@@ -117,7 +114,7 @@ describe("BStack demo test", () => {
         )
         .getText();
       expect(confirmation_message).toBe('Your Order has been successfully placed.');
-      
+
     },
     10000000
   );
