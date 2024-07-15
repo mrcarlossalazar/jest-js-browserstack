@@ -1,6 +1,5 @@
 const { Builder, By, Key, until, Capabilities } = require("selenium-webdriver");
 
-
 describe("BStack demo test", () => {
   let driver;
 
@@ -118,8 +117,7 @@ describe("BStack demo test", () => {
         )
         .getText();
       expect(confirmation_message).toBe('Your Order has been successfully placed.');
-
-
+      
     },
     10000000
   );
