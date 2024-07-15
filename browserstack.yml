@@ -14,7 +14,5 @@ platforms:
     browserName: Chrome
     deviceOrientation: landscape
 appiumVersion: 1.17.0 
-buildName: BROWSERSTACK_BUILD_NAME
 projectName: BrowserStack Sample
-buildName: jenkins-Test-
 buildIdentifier: ${BUILD_NUMBER}
