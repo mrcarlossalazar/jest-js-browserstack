@@ -1,8 +1,9 @@
 pipeline {
     agent any
     environment {
-        BROWSERSTACK_USERNAME = credentials('carlos_W2tnRJ')
+         BROWSERSTACK_USERNAME = credentials('carlos_W2tnRJ')
         BROWSERSTACK_ACCESS_KEY = credentials('9exVajxa7vbyyK8e6yqH')
+        BROWSERSTACK_BUILD_NAME = "jenkins-Test-${env.BUILD_NUMBER}"
     }
     stages {
         stage('Clone Repository') {
@@ -20,15 +21,11 @@ pipeline {
                 script {
                     def browserStackCredentialsId = '93657e89-abef-44ce-8b1d-a1cee0750832'
                     browserstack(credentialsId: browserStackCredentialsId) {
-                        sh 'npm run shopping-cart-test'
+                        sh """
+                            export BROWSERSTACK_BUILD_NAME=${BROWSERSTACK_BUILD_NAME}
+                            npm run test:browserstack
+                        """
                     }
-                }
-            }
-        }
-        stage('Generate Report') {
-            steps {
-                script {
-                    // Add any steps required to generate and archive the test report
                 }
             }
         }
