@@ -1806,3 +1806,16 @@
 2024-07-15 15:47:35 - [32minfo[39m: Visit https://observability.browserstack.com/builds/ha0om0bngmrz9ow99uiny80n8c2jizlknohzykfm to view build report, insights, and many more debugging information all at one place!
 
 2024-07-15 15:47:40 - [32minfo[39m: Local binary stopped
+2024-07-15 17:09:27 - [32minfo[39m: Reading configs from C:\bsdemo\jest-js-browserstack\browserstack.yml
+2024-07-15 17:09:27 - [32minfo[39m: Skipping buildIdentifier as buildName is not set or is set to null
+2024-07-15 17:09:27 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-15 17:09:27 - [32minfo[39m: Modifying jest configs to run tests on BrowserStack
+2024-07-15 17:09:28 - [32minfo[39m: Creating jest_browserstack.config.js with browserstack jest configs
+2024-07-15 17:09:28 - [32minfo[39m: Showing jest logs and reporter logs.
+2024-07-15 17:09:37 - [32minfo[39m: Configuring to run tests on BrowserStack
+2024-07-15 17:09:37 - [32minfo[39m: Configuring to run tests on BrowserStack
+2024-07-15 17:09:37 - [32minfo[39m: Configuring to run tests on BrowserStack
+2024-07-15 17:10:09 - [32minfo[39m: Deleting jest_browserstack.config.js
+2024-07-15 17:10:09 - [32minfo[39m: Visit https://observability.browserstack.com/builds/uebkndsp23kklfdu9xomnsfjohkfkxgnqssujov6 to view build report, insights, and many more debugging information all at one place!
+
+2024-07-15 17:10:09 - [33mwarn[39m: Unable to show build URL, as build capability is not used
