@@ -8,7 +8,6 @@ pipeline {
                 sh 'npm install'
                 sh 'browserstack-node-sdk jest src/shopping-cart.test.js'
             }
-             browserStackReportPublisher 'automate'
          }
       }
     }
