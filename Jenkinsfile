@@ -23,7 +23,7 @@ pipeline {
                     browserstack(credentialsId: browserStackCredentialsId) {
                         sh """
                             export BROWSERSTACK_BUILD_NAME=${BROWSERSTACK_BUILD_NAME}
-                            npm run test:browserstack
+                            npm run shopping-cart-test
                         """
                     }
                 }
