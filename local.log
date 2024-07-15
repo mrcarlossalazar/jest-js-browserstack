@@ -1,0 +1,13 @@
+"" 
+
+Mon Jul 15 2024 11:36:09:974 GMT-0400 (Eastern Daylight Time) -- Binary semantic version is v8.9.7
+Mon Jul 15 2024 11:36:09:975 GMT-0400 (Eastern Daylight Time) -- Setting output as extra verbose with request parsing
+Mon Jul 15 2024 11:36:11:21 GMT-0400 (Eastern Daylight Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Jul 15 2024 11:36:11:208 GMT-0400 (Eastern Daylight Time) -- Connecting to BrowserStack using WebSocket protocol...
+Mon Jul 15 2024 11:36:11:208 GMT-0400 (Eastern Daylight Time) -- Platform supports WebSocket connections.
+
+Mon Jul 15 2024 11:36:11:312 GMT-0400 (Eastern Daylight Time) -- Press Ctrl-C to exit
+
+
+Mon Jul 15 2024 11:36:12:449 GMT-0400 (Eastern Daylight Time) -- Starting configuration console on http://localhost:45454

@@ -1,8 +1,1 @@
-node_modules/
-**/.DS_Store
-local.log
-log/
-browserstack.err
-
-.vscode/
-.env
+node_modules
