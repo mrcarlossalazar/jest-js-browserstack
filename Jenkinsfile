@@ -3,7 +3,7 @@ pipeline {
      environment {
         BROWSERSTACK_USERNAME = credentials('carlos_W2tnRJ')
         BROWSERSTACK_ACCESS_KEY = credentials('9exVajxa7vbyyK8e6yqH')
-        BROWSERSTACK_BUILD_NAME = "jenkins-Test-${env.BUILD_NUMBER}"
+        BROWSERSTACK_BUILD_NAME = "test"
     }
   stages {
       stage('setup') {
