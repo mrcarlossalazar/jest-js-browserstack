@@ -19,7 +19,7 @@ pipeline {
         stage('Run Tests on BrowserStack') {
             steps {
                 script {
-                    def browserStackCredentialsId = '93657e89-abef-44ce-8b1d-a1cee0750832'
+                    def browserStackCredentialsId = 'a9e45b42-04fe-4fb6-bd2a-b8cd363826bf'
                     browserstack(credentialsId: browserStackCredentialsId) {
                         sh """
                             export BROWSERSTACK_BUILD_NAME=${BROWSERSTACK_BUILD_NAME}

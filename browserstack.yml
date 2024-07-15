@@ -18,7 +18,7 @@ appiumVersion: 1.17.0
 browserstackLocal: true
 browserStackLocalOptions:
   - localIdentifier: BROWSERSTACK_LOCAL_IDENTIFIER
-buildName: BROWSERSTACK_BUILD_NAME
+buildName: ${BROWSERSTACK_BUILD_NAME}
 projectName: BrowserStack Sample
 debug: true
 networkLogs: false

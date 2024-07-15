@@ -1793,3 +1793,16 @@
 
 2024-07-15 11:36:53 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5c55b4a4b8fa8dec4699d3d2e9285278457d47d7
 2024-07-15 11:36:57 - [32minfo[39m: Local binary stopped
+2024-07-15 15:46:17 - [32minfo[39m: Reading configs from C:\bsdemo\jest-js-browserstack\browserstack.yml
+2024-07-15 15:46:17 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-07-15 15:46:21 - [32minfo[39m: Local binary started successfully
+2024-07-15 15:46:22 - [32minfo[39m: Modifying jest configs to run tests on BrowserStack
+2024-07-15 15:46:24 - [32minfo[39m: Creating jest_browserstack.config.js with browserstack jest configs
+2024-07-15 15:46:24 - [32minfo[39m: Showing jest logs and reporter logs.
+2024-07-15 15:46:45 - [32minfo[39m: Configuring to run tests on BrowserStack
+2024-07-15 15:46:45 - [32minfo[39m: Configuring to run tests on BrowserStack
+2024-07-15 15:46:45 - [32minfo[39m: Configuring to run tests on BrowserStack
+2024-07-15 15:47:35 - [32minfo[39m: Deleting jest_browserstack.config.js
+2024-07-15 15:47:35 - [32minfo[39m: Visit https://observability.browserstack.com/builds/ha0om0bngmrz9ow99uiny80n8c2jizlknohzykfm to view build report, insights, and many more debugging information all at one place!
+
+2024-07-15 15:47:40 - [32minfo[39m: Local binary stopped
